@@ -883,6 +883,10 @@ transform: scale(1.05);
         height: max-content;
     }
 
+    nav{
+        width: 100% !important;
+    }
+
     .content{
         flex-direction: column;
     }
@@ -959,10 +963,6 @@ transform: scale(1.05);
 @media (max-width: 450px){
     html{
         font-size: 40%;
-    }
-
-    #main{
-        height: max-content;
     }
 
     .left-col, .right-col{
@@ -1057,9 +1057,7 @@ transform: scale(1.05);
     }
 
     /* extra */
-    nav{
-        width: 100%;
-    }
+
     .left-col .title h1{
         font-size: 7.2rem;
     }
