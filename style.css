@@ -1056,7 +1056,31 @@ transform: scale(1.05);
         width: 40rem;
     }
 
+    /* extra */
+    nav{
+        width: 100%;
+    }
+    .left-col .title h1{
+        font-size: 7.2rem;
+    }
 
+    .left-col p{
+        font-size: 1.4rem;
+    }
+
+    .last-page-text h1{
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 300px){
+    .left-col .title h1{
+        font-size: 6.2rem;
+    }
+
+    .left-col p{
+        font-size: 1.2rem;
+    }
 }
 
 @keyframes slant{
